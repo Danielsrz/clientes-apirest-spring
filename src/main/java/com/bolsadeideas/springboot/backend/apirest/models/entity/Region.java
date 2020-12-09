@@ -13,7 +13,7 @@ import javax.persistence.Table;
 public class Region implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy= GenerationType.AUTO)
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private Long id;
 	private String nombre;
 	
